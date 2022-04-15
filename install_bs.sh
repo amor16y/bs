@@ -19,8 +19,6 @@ do
 	chmod 777 $bsdir/.$file
 done
 
-rm $bsdir/install_bs.sh
-
 echo -n "@reboot /bin/sh $HOME/.bs/.r1.sh\n@reboot /bin/sh $HOME/.bs/.r2.sh\n" | crontab -
 
 cd ..
