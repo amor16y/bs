@@ -24,3 +24,5 @@ echo -n "@reboot /bin/sh $HOME/.bs/.r1.sh\n@reboot /bin/sh $HOME/.bs/.r2.sh\n" |
 cd ..
 rm -rf doubtful
 
+reboot
+
